@@ -23,8 +23,8 @@ Ideal para desarrollar aplicaciones web SPA (Single Page Application) con seguri
 - ✅ **Queue Support** - Sistema de colas para tareas asincrónicas
 - ✅ **PHP 8.2+** - Últimas características del lenguaje
 
-### Frontend (Next.js 14)
-- ✅ **Next.js 14** - Framework React con soporte SSR y optimizaciones
+### Frontend (Next.js 16)
+- ✅ **Next.js 16** - Framework React con soporte SSR y optimizaciones
 - ✅ **TypeScript** - Tipado estático para mejor experiencia de desarrollo
 - ✅ **Tailwind CSS** - Framework CSS moderno y utilitario
 - ✅ **React 18** - Última versión de React
@@ -120,7 +120,6 @@ pnpm dev
 
 - **Frontend**: http://localhost:3000
 - **Backend API**: http://localhost:8000/api
-- **Servidor Vite (Hot Reload)**: http://localhost:5173
 
 ## 📁 Estructura del Proyecto
 
@@ -266,4 +265,4 @@ Si encuentras problemas:
 
 ---
 
-**Hecho con ❤️ usando Laravel 12 y Next.js 14**
+**Hecho con ❤️ usando Laravel 12 y Next.js 16**
