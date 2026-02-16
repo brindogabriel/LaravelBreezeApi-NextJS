@@ -72,7 +72,7 @@ const PasswordResetPage = () => {
               name="email"
               type="email"
               disabled
-              className="block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 disabled:opacity-75 disabled:cursor-not-allowed"
+              className="block mt-1 w-full rounded-md shadow-xs border-gray-300 focus:border-indigo-300 focus:ring-3 focus:ring-indigo-200 focus:ring-opacity-50 disabled:opacity-75 disabled:cursor-not-allowed"
             />
 
             <ErrorMessage
@@ -93,7 +93,7 @@ const PasswordResetPage = () => {
               id="password"
               name="password"
               type="password"
-              className="block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              className="block mt-1 w-full rounded-md shadow-xs border-gray-300 focus:border-indigo-300 focus:ring-3 focus:ring-indigo-200 focus:ring-opacity-50"
             />
 
             <ErrorMessage
@@ -114,7 +114,7 @@ const PasswordResetPage = () => {
               id="password_confirmation"
               name="password_confirmation"
               type="password"
-              className="block mt-1 w-full rounded-md shadow-sm border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              className="block mt-1 w-full rounded-md shadow-xs border-gray-300 focus:border-indigo-300 focus:ring-3 focus:ring-indigo-200 focus:ring-opacity-50"
             />
 
             <ErrorMessage
@@ -127,7 +127,7 @@ const PasswordResetPage = () => {
           <div className="flex items-center justify-end mt-4">
             <button
               type="submit"
-              className="ml-4 inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring ring-gray-300 disabled:opacity-25 transition ease-in-out duration-150">
+              className="ml-4 inline-flex items-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 active:bg-gray-900 focus:outline-hidden focus:border-gray-900 focus:ring-3 ring-gray-300 disabled:opacity-25 transition ease-in-out duration-150">
               Reset Password
             </button>
           </div>

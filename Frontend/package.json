@@ -8,7 +8,7 @@
     "laravel-breeze",
     "next",
     "typescript",
-    "next-v14"
+    "next-v16"
   ],
   "scripts": {
     "dev": "next dev",
@@ -17,25 +17,25 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.17",
-    "@tailwindcss/forms": "^0.5.7",
-    "axios": "^1.6.2",
-    "formik": "^2.4.5",
-    "next": "14.0.3",
-    "react": "^18",
-    "react-dom": "^18",
-    "swr": "^2.2.4",
-    "yup": "^1.3.2"
+    "@headlessui/react": "^2.2.9",
+    "@tailwindcss/forms": "^0.5.11",
+    "axios": "^1.13.5",
+    "formik": "^2.4.9",
+    "next": "16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "swr": "^2.4.0",
+    "yup": "^1.7.1"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.3",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "typescript": "^5"
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^25.2.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^10.0.0",
+    "eslint-config-next": "16.1.6",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3"
   }
 }
