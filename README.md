@@ -1,6 +1,6 @@
 # Laravel Breeze API + Next.js TypeScript
 
-Un template moderno y profesional que combina un backend robusto con Laravel 12 y un frontend elegante con Next.js 14, TypeScript y Tailwind CSS. Este proyecto es una extensión mejorada de [Laravel Breeze Next TypeScript](https://github.com/Byandev/laravel-breeze-next-typescript) con funcionalidades adicionales en el backend.
+Un template moderno y profesional que combina un backend robusto con Laravel 12 y un frontend elegante con Next.js 16, TypeScript y Tailwind CSS. Este proyecto es una extensión mejorada de [Laravel Breeze Next TypeScript](https://github.com/Byandev/laravel-breeze-next-typescript) con funcionalidades adicionales en el backend.
 
 ## 🎯 Descripción
 
