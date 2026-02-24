@@ -1,28 +1,22 @@
-# Contributing
+# Contribuir
 
-Thanks for your interest in contributing.
+Gracias por tu interés en contribuir.
 
-## Guidelines
+## Pautas
 
-- Keep changes focused and minimal.
+- Mantén los cambios enfocados y mínimos.
+- Sigue la estructura existente del proyecto.
+- Escribe mensajes de confirmación claros.
+- Prueba tus cambios antes de enviarlos.
 
-- Follow the existing project structure.
+Solicitudes de extracción
 
-- Write clear commit messages.
+1. Haz un fork del repositorio.
+2. Crea una rama de característica.
+3. Confirma tus cambios.
+4. Abre una solicitud de extracción con una descripción clara.
 
-- Test your changes before submitting.
-
-Pull Requests
-
-1. Fork the repository.
-
-2. Create a feature branch.
-
-3. Commit your changes.
-
-4. Open a pull request with a clear description.
-
-Notes
+Notas
 
 > [!NOTE]
-> This project is intended to remain a reusable template. Avoid adding project-specific logic.
+> Este proyecto está pensado para seguir siendo una plantilla reutilizable. Evita añadir lógica específica de un proyecto.
