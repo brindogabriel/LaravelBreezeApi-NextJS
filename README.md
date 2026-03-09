@@ -27,7 +27,7 @@ Ideal para desarrollar aplicaciones web SPA (Single Page Application) con seguri
 - ✅ **Next.js 16** - Framework React con soporte SSR y optimizaciones
 - ✅ **TypeScript** - Tipado estático para mejor experiencia de desarrollo
 - ✅ **Tailwind CSS** - Framework CSS moderno y utilitario
-- ✅ **React 18** - Última versión de React
+- ✅ **React 19** - Última versión de React
 - ✅ **Formik + Yup** - Manejo de formularios y validaciones
 - ✅ **Axios** - Cliente HTTP para consumir la API
 - ✅ **SWR** - Fetching de datos con caching y revalidación
