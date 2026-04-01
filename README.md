@@ -174,7 +174,62 @@ POST   /api/auth/logout             # Cerrar sesión
 GET    /api/user                    # Obtener datos del usuario actual
 POST   /api/auth/forgot-password    # Solicitar reset de contraseña
 ```
+## 🔌 Exportación de Postman
 
+Este proyecto incluye el paquete **[Laravel API to Postman](https://github.com/andreaselia/laravel-api-to-postman)** que permite generar automáticamente una colección de Postman basada en tus rutas API.
+
+### Instalación
+
+El paquete ya está incluido en las dependencias. Si necesitas reinstalarlo:
+
+```bash
+composer require andreaselia/laravel-api-to-postman
+```
+
+Y publica el archivo de configuración:
+
+```bash
+php artisan vendor:publish --provider="AndreasElia\PostmanGenerator\PostmanGeneratorServiceProvider"
+```
+
+### Uso
+
+Para generar la colección de Postman, ejecuta:
+
+```bash
+php artisan export:postman
+```
+
+Esto generará un archivo JSON en `storage/app/` que puedes importar directamente en Postman.
+
+#### Con Autenticación Bearer Token
+
+```bash
+php artisan export:postman --bearer="1|XXNKXXqJjfzG8XXSvXX1Q4pxxnkXmp8tT8TXXKXX"
+```
+
+#### Con Autenticación Basic Auth
+
+```bash
+php artisan export:postman --basic="username:password123"
+```
+
+El archivo generado incluirá automáticamente:
+- ✅ Todas las rutas API
+- ✅ Métodos HTTP correctos (GET, POST, PUT, DELETE)
+- ✅ Parámetros y validaciones de FormRequest
+- ✅ Headers de autenticación (si se especifican)
+- ✅ Agrupación por carpetas para mejor organización
+
+### Configuración
+
+El archivo de configuración se encuentra en `Backend/config/api-postman.php` donde puedes personalizar:
+- Nombre y descripción de la colección
+- Rutas a excluir
+- Formato de salida
+- Y más opciones
+
+Para más detalles, consulta la [documentación oficial del paquete](https://github.com/andreaselia/laravel-api-to-postman).
 ## 📚 Documentación y Recursos
 
 ### Backend (Laravel)
